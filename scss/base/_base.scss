@@ -1,0 +1,24 @@
+@use '../utilities' as *;
+
+html {
+    font-size: var(--global-font-size);
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    min-width: pxToRem(375px);
+    padding: 0 2rem 4rem 2rem;
+    background-color: var(--color-black);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}

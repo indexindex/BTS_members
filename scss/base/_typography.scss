@@ -1,0 +1,19 @@
+@use '../utilities' as *;
+
+// ? main section
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    color: var(--color-blue);
+    max-width: pxToRem(750px);
+    margin-top: 4rem;
+
+    &--title {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 2;
+    }
+
+    &--about { line-height: 1.5; }
+}

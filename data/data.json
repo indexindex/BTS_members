@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "slug": "rm",
+    "image": "/images/rm.jpg",
+    "memberName": "RM",
+    "fullName": "Kim Nam-joon",
+    "role": "Main Rapper",
+    "born": "1994-09-12",
+    "height": "1.81 m",
+    "nationality": "Korean, South Korean",
+    "about": "Kim Nam-joon, known professionally as RM, is a South Korean rapper, singer-songwriter and record producer. He is the leader of South Korean boy band BTS. RM released his first solo mixtape, RM, in 2015."
+  },
+  {
+    "id": 1,
+    "slug": "jin",
+    "image": "/images/jin.jpg",
+    "memberName": "Jin",
+    "fullName": "Kim Seok-jin",
+    "role": "Vocals",
+    "born": "1992-12-04",
+    "height": "1.79 m",
+    "nationality": "Korean, South Korean",
+    "about": "Kim Seok-jin, also known professionally as Jin, is a South Korean singer, songwriter, and member of the South Korean boy band BTS. Kim has co-written and released three solo tracks with BTS: \"Awake\" in 2016, \"Epiphany\" in 2018, and \"Moon\" in 2020, all of which have charted on South Korea's Gaon Digital Chart."
+  },
+  {
+    "id": 2,
+    "slug": "suga",
+    "image": "/images/suga.jpg",
+    "memberName": "SUGA",
+    "fullName": "Min Yoon-gi",
+    "role": "Lead Rapper",
+    "born": "1993-03-09",
+    "height": "1.74 m",
+    "nationality": "Korean, South Korean",
+    "about": "Min Yoon-gi, known professionally by his stage names Suga and Agust D, is a South Korean rapper, songwriter and record producer. Under Big Hit Music, he debuted as a member of the South Korean boy band BTS in 2013."
+  },
+  {
+    "id": 3,
+    "slug": "j-hope",
+    "image": "/images/j-hope.jpg",
+    "memberName": "j-hope",
+    "fullName": "Jung Ho-seok",
+    "role": "Rapper",
+    "born": "1994-02-18",
+    "height": "1.77 m",
+    "nationality": "Korean, South Korean",
+    "about": "Jung Ho-seok, better known by his stage name J-Hope, is a South Korean rapper, singer-songwriter, dancer, and record producer. He made his debut as a member of South Korean boy band BTS in 2013, under Big Hit Entertainment. J-Hope released his first solo mixtape, Hope World, in 2018."
+  },
+  {
+    "id": 4,
+    "slug": "jimin",
+    "image": "/images/jimin.jpg",
+    "memberName": "Jimin",
+    "fullName": "Park Jimin",
+    "role": "Lead Vocalist",
+    "born": "1995-10-13",
+    "height": "1.74 m",
+    "nationality": "Korean, South Korean",
+    "about": "Park Ji-min, known mononymously as Jimin, is a South Korean singer and dancer. In 2013, he made his debut as a member of the South Korean boy band BTS, under the record label Big Hit Entertainment."
+  },
+  {
+    "id": 5,
+    "slug": "v",
+    "image": "/images/v.jpg",
+    "memberName": "V",
+    "fullName": "Kim Tae-hyung",
+    "role": "Vocals",
+    "born": "1995-12-30",
+    "height": "1.79 m",
+    "nationality": "Korean, South Korean",
+    "about": "Kim Tae-hyung, also known professionally as V, is a South Korean singer and member of the boy band BTS. Since his debut with the group in 2013, V has released three solo tracks under their name—\"Stigma\" in 2016, \"Singularity\" in 2018, and \"Inner Child\" in 2020—all of which charted on South Korea's Gaon Digital Chart."
+  },
+  {
+    "id": 6,
+    "slug": "jung-kook",
+    "image": "/images/jung-kook.jpg",
+    "memberName": "Jung Kook",
+    "fullName": "Jeon Jung-kook",
+    "role": "Main Vocals",
+    "born": "1997-09-01",
+    "height": "1.79 m",
+    "nationality": "Korean, South Korean",
+    "about": "Jeon Jung-kook, known mononymously as Jungkook, is a South Korean singer. He is a member and vocalist of the South Korean boy band BTS."
+  }
+]

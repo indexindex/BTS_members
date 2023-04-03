@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{_MEMBER_NAME_}</title>
+</head>
+<body>
+  <div class="member-cards">
+    <div id="{_ID_}" class="member-card">
+      <img src="{_IMAGE_}" class="member-card__image">
+      <div class="member-card__details">
+          <p class="member-card__details--name">{_MEMBER_NAME_}</p>
+      </div>
+    </div>
+    <div class="member-details">
+      <p class="member-details--full-name">Full name: {_FULL_NAME_}</p>
+      <p class="member-details--role">Role: {_ROLE_}</p>
+      <p class="member-details--born">Born: {_BORN_}</p>
+      <p class="member-details--height">Height: {_HEIGHT_}</p>
+      <p class="member-details--nationality">Nationality: {_NATIONALITY_}</p>
+      <p class="member-details--about">About: {_ABOUT_}</p>
+      <a href="/main#{_SLUG_}" class="member-details--link">Back to all members</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+@use 'functions' as *;
+
+%navLink {
+    font-size: pxToRem(10px);
+    color: var(--color-blue);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: pxToRem(10px);
+    border: 1px solid currentColor;
+}

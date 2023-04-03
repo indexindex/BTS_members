@@ -1,0 +1,56 @@
+@use '../utilities' as *;
+
+.member-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .member-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: pxToRem(250px);
+        padding-top: 4rem;
+
+        img {
+            width: 100%;
+            border-top-left-radius: 1rem;
+            border-top-right-radius: 1rem;
+        }
+
+        &__details {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            row-gap: 2rem;
+            padding: 2rem 1rem;
+
+            &--name {
+                font-size: 1rem;
+                color: var(--color-blue);
+            }
+    
+            &--link { @extend %navLink; }
+        }
+    }
+
+    // ? displayed in detailed view
+    .member-details {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 1rem;
+        width: 100%;
+        max-width: pxToRem(500px);
+
+        & > * { color: var(--color-blue); }
+
+        &--age { padding-left: .5rem; }
+
+        &--link {
+            @extend %navLink;
+            align-self: center;
+            margin-top: 2rem;
+        }
+    }
+}
