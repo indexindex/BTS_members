@@ -1,6 +1,7 @@
 // * core modules
 const fs = require('fs');
 const http = require('http');
+const https = require('https');
 const { URL } = require('url');
 const path = require('path');
 
@@ -65,3 +66,28 @@ const port = process.env.PORT || 8000;
 server.listen(port, () => {
     console.log(`server has started on port ${port}`);
 })
+
+
+
+// ? applied extra logic to keep server awake
+const keepAlive = () => {
+    const options = {
+        hostname: 'https://bts-members.onrender.com',
+        method: 'GET',
+        path: '/',
+        port: 9000
+    }
+
+    const req = https.request(options, res => {
+        console.log(`status: ${res.statusCode}`);
+    })
+
+    req.on('error', error => {
+        console.error(error);
+    })
+
+    req.end();
+}
+
+// ? 10 minutes expressed in milliseconds (10 minutes * 60 seconds * 1000 milliseconds = 600,000 milliseconds)
+setInterval(keepAlive, 10 * 60 * 1000);
